@@ -34,7 +34,7 @@ class ComplianceTest {
 
     static synchronized CtModel getCtModel() {
         if (ctModel == null) {
-            SpoonAPI spoon = new Launcher();2
+            SpoonAPI spoon = new Launcher();
             spoon.addInputResource("src/main/java/");
             ctModel = spoon.buildModel();
         }
